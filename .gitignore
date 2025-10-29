@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (optional - include if they're large)
+data/
+*.csv
+*.xlsx
+
+# Flask
+instance/
+.webassets-cache
+
+# Database
+*.db
+*.sqlite3
